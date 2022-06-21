@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../assets/css/main.css">
+<title>Contacto</title>
+</head>
+
+<body>
+	<div class="contenedorNav">
+		
+		<nav class="menu">
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="./nosotros.html">Nosotros</a></li>
+				<li><a href="./productos.html">Productos</a></li>
+				<li><a href="./novedades.html">Novedades</a></li>
+				<li class="active"><a href="./contacto.html">Contacto</a></li>	
+			</ul>
+		</nav>
+		<div class="social"><a href="https://www.instagram.com/mercadito_cool/" target="_blank"><img src="../assets/images/ig.png"></a>
+		</div>
+	</div>
+	<header><h2 class="titulo">Escríbenos!</h2></header>
+	<main>	
+		<div class="contenedorForm">
+			<div class="form"></div>
+			<div class="formCenter">
+				<form action="contacto.php" method="get">
+					<input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required><br><br>
+					<input type="mail" name="mail" id="mail" placeholder="Ingrese su mail"required><br><br>
+					<textarea name="message" id="message" rows="20" cols="40" placeholder="Ingrese su mensaje"required></textarea><br><br>	
+					<label for="acepto">Acepto términos y condiciones</label>
+					<input type="checkbox" name="acepto" value="si"><br><br
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Reiniciar">
+				</form>
+			</div>
+			<div class="form"></div>
+		</div>
+	</main>
+
+	<footer>
+		<h6>©2022 Mercedes Cachaza - Todos los derechos reservados</h6>
+	</footer>
+</body>
+</html>
