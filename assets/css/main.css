@@ -42,11 +42,13 @@
 	h1.titulo{
 		text-align: center;
 		color:firebrick;
+		font-size: 4em;
 	}
 
 
 	h1.titulo--negrita{
 		font-weight: bold;
+	
 	}
 	h2.titulo{
 		text-align: center;
@@ -139,6 +141,16 @@
 	.caja{
 		width: 400px;
 		text-align: justify;
+	}
+	
+	.desc{
+		width: 30%;
+		padding-top: 400px;
+		padding-left: 50px;
+		padding-bottom: 50px;
+		font-size: 1.5em;
+		color: crimson;
+		margin-top: auto;
 	}
 
 	/**NOSOTROS**/
