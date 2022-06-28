@@ -39,11 +39,7 @@
 		padding-left: 3em;
 	}
 
-	h1.titulo{
-		text-align: center;
-		color:firebrick;
-		font-size: 4em;
-	}
+
 
 
 	h1.titulo--negrita{
@@ -54,40 +50,31 @@
 		text-align: center;
 		color:firebrick;
 	}
+	
+	
+	
+	/*Contenedor  para alinear los elementos del menu superior (navegacion, titulo,  social)*/
+	
 
-	/*Contenedor  para alinear los elementos del menu superior (navegacion y social)*/
+	
+		#contenedorNav{
+		display:grid;
+		grid-template-areas: 
+			"nav header social";
 
-	.contenedorNav{
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		justify-content: space-between;
+		grid-template-columns:25% 50% 25%;
+		grid-template-rows: auto;
+		justify-content:space-between;
+
 
 	}
 
-
-	.social{
-
-		justify-content: flex-end;
-
-	}
-
-	.social img {
-
-		width: 50px;
-		height:50px;
-	}
-
-
-
-
-
-	nav.menu{
+section#nav.menu{
 		text-decoration: none;
 		font-size: 1.2em;
 
 	}
-	nav.menu a{
+	section#nav.menu a{
 		color:#000000;
 		text-decoration: none;
 		padding: 0.5em;
@@ -95,7 +82,7 @@
 
 	}
 
-	nav.menu a:hover{
+	section#nav.menu a:hover{
 		color:#999999;
 		text-decoration: none;
 
@@ -104,25 +91,63 @@
 	}
 
 
-	nav.menu ul{
+	section#nav.menu ul{
 
 		list-style-type: none;
 		text-decoration: none;
 
 
 	}
-	nav.menu ul li{
+	section#nav.menu ul li{
 		display:inline;
 		text-decoration: none;
 	}
-	nav.menu ul li.active{
+	section#nav.menu ul li.active{
 		text-decoration: underline;
 
 	}
 
-	nav.menu ul li.active a{
+	section#nav.menu ul li.active a{
 		color:firebrick;
 	}
+	
+/*Titular*/
+	
+	
+	section#header{
+		align-self:start;
+		font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		color:firebrick;
+		font-size: 4em;
+		text-shadow: 2px 2px 3px black;
+		text-align: center;
+	
+	
+		
+
+		
+	}
+	
+	
+/*REDES SOCIALES*/
+	
+	section#social{
+		
+		justify-self:end;
+		
+	}
+	
+	section#social img {
+
+		width: 50px;
+		height:50px;
+
+	}
+
+
+
+
+
 
 
 	img{
@@ -149,10 +174,14 @@
 		padding-left: 50px;
 		padding-bottom: 50px;
 		font-size: 1.5em;
-		color: crimson;
+		color: black;
 		margin-top: auto;
+	
 	}
 
+	
+	
+	
 	/**NOSOTROS**/
 	.nosotros{
 		background-image:url("../images/hearts10.png");
