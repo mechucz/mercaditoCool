@@ -118,8 +118,8 @@ section#nav.menu{
 		align-self:start;
 		font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 		color:firebrick;
-		font-size: 4em;
-		text-shadow: 2px 2px 3px black;
+		font-size: 6em;
+		text-shadow: 2px 2px 3px #cccccc;
 		text-align: center;
 	
 	
