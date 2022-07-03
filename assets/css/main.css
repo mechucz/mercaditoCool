@@ -51,77 +51,22 @@
 		color:firebrick;
 	}
 	
-	
-	
-	/*Contenedor  para alinear los elementos del menu superior (navegacion, titulo,  social)*/
-	
+	/*.logo{
+		max-width: 80%;
+  		height: auto;
 
-	
-		#contenedorNav{
-		display:grid;
-		grid-template-areas: 
-			"nav header social";
+		
+	}*/
 
-		grid-template-columns:25% 50% 25%;
-		grid-template-rows: auto;
-		justify-content:space-between;
-
-
-	}
-
-section#nav.menu{
-		text-decoration: none;
-		font-size: 1.2em;
-
-	}
-	section#nav.menu a{
-		color:#000000;
-		text-decoration: none;
-		padding: 0.5em;
-
-
-	}
-
-	section#nav.menu a:hover{
-		color:#999999;
-		text-decoration: none;
-
-
-
-	}
-
-
-	section#nav.menu ul{
-
-		list-style-type: none;
-		text-decoration: none;
-
-
-	}
-	section#nav.menu ul li{
-		display:inline;
-		text-decoration: none;
-	}
-	section#nav.menu ul li.active{
-		text-decoration: underline;
-
-	}
-
-	section#nav.menu ul li.active a{
-		color:firebrick;
-	}
 	
 /*Titular*/
 	
 	
 	section#header{
-		align-self:start;
 		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 		color:firebrick;
 		padding-top: 20px;
 		text-shadow: 2px 2px 3px #cccccc;
-		text-align: center;
-	
 		
 	}
 	section#header h1{
@@ -136,14 +81,13 @@ section#nav.menu{
 	
 	section#social{
 		
-		justify-self:end;
+		
 		
 	}
 	
 	section#social img {
-
-		width: 50px;
-		height:50px;
+		max-width: 80%;
+  		height: auto;
 
 	}
 
@@ -322,12 +266,12 @@ section#nav.menu{
 	}
 }
 
-/*ESTILOS MOBILE- 467px*/
+/*ESTILOS MOBILE- 467px
 @media (max-width: 599px){
 	
 	
 
-	/*Contenedor de base para alinear los elemento a lo largo de la pag*/
+	/*Contenedor de base para alinear los elemento a lo largo de la pag
 
 
 	body{
@@ -374,7 +318,7 @@ section#nav.menu{
 		color:firebrick;
 	}
 
-	/*Contenedor  para alinear los elementos del menu superior (navegacion y social)*/
+	/*Contenedor  para alinear los elementos del menu superior (navegacion y social)*
 
 	.contenedorNav{
 		display: flex;
@@ -448,7 +392,7 @@ section#nav.menu{
 		width: 50%;
 	}
 
-	/*Contenedor  para alinear texto dentro de main*/
+	/*Contenedor  para alinear texto dentro de main
 
 	.contenedorCajas{
 		display: flex;
@@ -462,7 +406,7 @@ section#nav.menu{
 		text-align: justify;
 	}
 
-	/**NOSOTROS**/
+	/**NOSOTROS*
 	.nosotros{
 		background-image:url("../images/hearts10.png");
 		background-repeat:repeat;
@@ -472,7 +416,7 @@ section#nav.menu{
 
 	}
 
-	/**PRODUCTOS**/
+	/**PRODUCTOS**
 	.productos{
 		display: flex;
 		flex-direction: column;
@@ -493,7 +437,7 @@ section#nav.menu{
 
 	}
 
-	/**BLOG O NOVEDADES**/
+	/**BLOG O NOVEDADES**
 	#grilla{
 		display:grid;
 
@@ -542,7 +486,7 @@ section#nav.menu{
 
 
 
-	/**FORMULARIO**/
+	/**FORMULARIO**
 
 	.contenedorForm{
 		display: flex;
@@ -596,4 +540,4 @@ section#nav.menu{
 
 	}
 }
-	
+	*/
