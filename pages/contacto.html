@@ -10,23 +10,33 @@
 </head>
 
 <body>
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-		<div class="container-fluid">
-			 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				  <span class="navbar-toggler-icon"></span>
-			 </button>
-			 <div class="collapse navbar-collapse" id="navbarCollapse">
-				<div class="navbar-nav">
-							<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-							<a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-							<a class="nav-link" href="../pages/productos.html">Productos</a>
-							<a class="nav-link" href="../pages/novedades.html">Novedades</a>
-							<a class="nav-link" href="../pages/contacto.html">Contacto</a>
-				 </div>
-
-			</div>
-		 </div>
-	</nav>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+   <a class="navbar-brand" href="https://wa.me/<+56957248816> "><img src="../assets/images/wapp.png" class="fluid"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+		     <li class="nav-item">
+          <a class="nav-link" href="../pages/productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="../pages/novedades.html">Novedades</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <div class="brand">
 	<div class="row justify-content-around">
 			<div class="col-sm-4 col-md-2"><section id= "logo"><a href="../index.html"><img src="../assets/images/logo1.png" class="fluid"></a></section></div>
@@ -42,20 +52,101 @@
 </div>
 	<main>	
 		<div class="container-fluid">
- 
-			<div class="formCenter">
-				<form action="contacto.php" method="get">
-					<input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required><br><br>
-					<input type="mail" name="mail" id="mail" placeholder="Ingrese su mail"required><br><br>
-					<textarea name="message" id="message" rows="20" cols="40" placeholder="Ingrese su mensaje"required></textarea><br><br>	
-					<label for="acepto">Acepto términos y condiciones</label>
-					<input type="checkbox" name="acepto" value="si"><br><br
-					<input type="submit" value="Enviar">
-					<input type="reset" value="Reiniciar">
-				</form>
-			</div>
-		
-		</div>
+
+			<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Escribenos!</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Tienes alguna econsulta? En minutos te respondemos.</p>
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Nombre</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Asunto</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Mensaje</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Lo Barnechea,Santiago, Chile</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+56957248816</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contacto@mercaditocool.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+</div>		
 	</main>
 
 	<footer>
