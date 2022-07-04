@@ -4,10 +4,34 @@
   BEM ejemplo: p.social
   kebab-case ejemplo p-social*/
 
-
+@media (max-width: 576px) {
+	body.home{
+		background-image:none;
 	
+	}
+		.contacto{
+		backgound-image:none;
+	}
+		section#social img {
+			display: none;
+	}
+		section#header h1 {
+			display: none;
+	}
+	img{
+	max-width: 100%;
+}
+		footer{
+		background-color: firebrick;
+		color:#ffffff;
+		height: 50px;
+		margin-top: auto;
 
-	/*Contenedor de base para alinear los elemento a lo largo de la pag*/
+	}
+
+}
+	
+@media (min-width: 577px) {
 
 
 	body{
@@ -80,7 +104,7 @@
 	}
 	
 	section#social img {
-		max-width: 80%;
+		max-width: 40%;
   		height: auto;
 
 	}
@@ -183,51 +207,22 @@ img{
 	
 	}
 
-
-	/**FORMULARIO**/
-
-	.contenedorForm{
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-
-	}
-	.form{
-		width: 25%;
-		justify-content:space-between;
-	}
-	.formCenter{
-		
+	/**Contacto**/
+	.contacto{
 		background-image:url("../images/formTropical.jpeg");
+		background-size:100%;
 		background-repeat: no-repeat;
-		background-position: top;
-		background-size: 100%;
-		justify-content:space-between;
-		padding: 180px 20px 40px 380px;
-		border-radius: 25px;
-		text-align:start;
-	}
+		
 	
-	#nombre{
-		width: 30%;
-		
 	}
-	#mail{
-		width: 30%;
-		
-	}
+
 	
-	#message{
-		width: 50%;
-		
-	}
 
 	footer{
 		background-color: firebrick;
 		color:#ffffff;
 		height: 100px;
 		margin-top: auto;
-
 
 	}
 
@@ -240,6 +235,6 @@ img{
 
 
 
-
+}
 
 
