@@ -7,8 +7,15 @@
 @media (max-width: 576px) {
 	body.home{
 		background-image:none;
+		background-color:lavenderblush;
+	
 	
 	}
+	
+	.desc{
+		padding:20px;
+	
+}
 		.contacto{
 		backgound-image:none;
 	}
@@ -26,6 +33,12 @@
 		color:#ffffff;
 		height: 50px;
 		margin-top: auto;
+
+	}
+		footer h6{
+
+		padding: 1em;
+		text-align: center;
 
 	}
 
@@ -76,7 +89,14 @@
 	.brand{
 		padding-top: 60px;
 	}
-
+	.textHome{
+		border-style: solid;
+		border-color: firebrick;
+		border-radius: 20px; 
+		padding: 10px;
+		background-color: firebrick;
+		
+	}
 /*Titular*/
 	
 	
@@ -174,31 +194,9 @@ img{
 		justify-content:space-around;
 
 	}
-	.prod{
-		width: 25%;
-		text-align:center;
-		padding-top: 50px;
-		overflow: hidden;
-		border-radius: 25px;
-
-	}
-
-	.prod img{
-		
-		border-radius: 25px;
-		transition: all 1s;
 	
-		
 
-	}
-	
-	.prod img:hover{
-		
-		transform:scale(1.8);
-	
-		
-		
-	}
+
 
 	/**BLOG O NOVEDADES**/
 	.novedades{
