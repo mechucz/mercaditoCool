@@ -5,26 +5,12 @@
   kebab-case ejemplo p-social*/
 
 @media (max-width: 576px) {
-	body.home{
-		background-image:none;
-		background-color:lavenderblush;
-	
-	
-	}
-	
-	.desc{
-		padding:20px;
-	
-}
+
+
 		.contacto{
 		backgound-image:none;
 	}
-		section#social img {
-			display: none;
-	}
-		section#header h1 {
-			display: none;
-	}
+
 	img{
 	max-width: 100%;
 }
@@ -57,16 +43,15 @@
 		 justify-content: flex-start;
 
 	}
-	body.home{
-		background-image:url("../images/home.JPEG");
-		background-size:100%;
-		background-repeat: no-repeat;
-	
-	}
 
 
 
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 	p{
 		padding-right: 10em;
@@ -116,29 +101,26 @@
 	
 /*REDES SOCIALES*/
 	
-	section#social{
+	.social{	
+		padding: 20px;
 		
-			
 	}
 	
-	section#social img {
+	.social img {
 		max-width: 40%;
   		height: auto;
 
 	}
 
 
-	section#logo img {
-		max-width: 100%;
+	.logo img {
+		max-width: 80%;
   		height: auto;
 
 	}
 
 
-.desc{
-	margin-top: 300px;
-}
-	
+
 	
 	
 	/**NOSOTROS**/

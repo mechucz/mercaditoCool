@@ -10,10 +10,12 @@
 <title>Contacto</title>
 </head>
 
-<body class="contacto">
+<body class="novedades">
+
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <div class="container-fluid">
-   <a class="navbar-brand" href="https://wa.me/message/7LW7ZWQO3YAPD1"><img src="../assets/images/wapp.png" class="fluid"></a>
+   <a class="navbar-brand" href="https://wa.me/message/7LW7ZWQO3YAPD1" target="_blank"><img src="../assets/images/wapp.png" class="fluid"></a>
+	     <a class="navbar-brand" href="https://www.instagram.com/mercadito_cool" target="_blank"><img src="../assets/images/igIconWhite.png" class="fluid"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -38,20 +40,8 @@
     </div>
   </div>
 </nav>
-<div class="brand">
-	<div class="row justify-content-around">
-			<div class="col-sm-4 col-md-2"><section id= "logo"><a href="../index.html"><img src="../assets/images/logo1.png" class="fluid"></a></section></div>
 
-			<div class="col-sm-4 col-md-8"><section id="header">
-				<h1 class="animate__animated animate__fadeIn" >CONTACTO</h1>
-			</section>
-				</div>
-			<div class="col-sm-4 col-md-2"><section id= "social"><a href="https://www.instagram.com/mercadito_cool/" target="_blank"><img src="../assets/images/ig.png" class="fluid"></a>
-			</section>
-				</div>
-	</div>
-</div>
-	<main>	
+	<main>
 		<div class="container-fluid">
 
 			<section class="mb-4">
@@ -72,8 +62,9 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
+							 <label for="name" class="">Nombre</label>
                             <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Nombre</label>
+                           
                         </div>
                     </div>
                     <!--Grid column-->
@@ -81,8 +72,9 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
+							  <label for="email" class="">Email</label>
                             <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Email</label>
+                          
                         </div>
                     </div>
                     <!--Grid column-->
@@ -94,8 +86,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
+							<label for="subject" class="">Asunto</label>
                             <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Asunto</label>
+                            
                         </div>
                     </div>
                 </div>
@@ -108,8 +101,9 @@
                     <div class="col-md-12">
 
                         <div class="md-form">
+							  <label for="message">Mensaje</label>
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Mensaje</label>
+                          
                         </div>
 
                     </div>
@@ -119,17 +113,17 @@
             </form>
 
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                <a class="btn btn-danger m-2" onclick="document.getElementById('contact-form').submit();">Enviar</a>
             </div>
             <div class="status"></div>
         </div>
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 text-bg-dark p-4 m-4 ">
             <ul class="list-unstyled mb-0">
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>Lo Barnechea,Santiago, Chile</p>
+                    <p>Lo Barnechea, Santiago, Chile</p>
                 </li>
 
                 <li><i class="fas fa-phone mt-4 fa-2x"></i>
