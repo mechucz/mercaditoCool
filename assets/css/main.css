@@ -6,6 +6,14 @@
 
 @media (max-width: 576px) {
 
+	.home{
+		padding-top: 50px;
+	
+	}
+	.novedades{
+		padding-top: 50px;
+	
+	}
 
 		.contacto{
 		backgound-image:none;
@@ -44,7 +52,10 @@
 
 	}
 
-
+	.home{
+		padding-top: 50px;
+	
+	}
 
 .center {
   display: block;
@@ -181,6 +192,7 @@ img{
 	/**BLOG O NOVEDADES**/
 	.novedades{
 		background-image:url("../images/formTropical2.png");
+		padding-top: 50px;
 		
 	
 	}
