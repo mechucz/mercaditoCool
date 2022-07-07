@@ -1,60 +1,11 @@
 // Scss Document
 /* CSS Document */
-
-@media (max-width: 576px) {
-a {
-    color: firebrick; 
-    a:hover {
-      opacity: 1; }
-	}
-	
-img{
-	max-width: 100%;
-}
-
-	.home{
-		padding-top: 50px;
-	
-	}
-	.novedades{
-		padding-top: 50px;
-	
-	}
-
-	.contacto{
-		backgound-image:none;
-	}
+@import "_body.scss";
+@import "_footer.scss";
+@import "_home.scss";
+@import "_novedades.scss";
 
 
-		footer{
-		background-color: firebrick;
-		color:#ffffff;
-		height: 60px;
-		margin-top: auto;
-
-	}
-		footer h6{
-
-		padding: 1em;
-		text-align: center;
-
-	}
-
-}
-	
-@media (min-width: 577px) {
-
-
-body{
-		background-color: #ffffff;
-		color:#000000;
-		text-decoration: none;
-		 display: flex;
-		 min-height: 100vh;
-		 flex-direction: column;
-		 justify-content: flex-start;
-
-	}
 	
 a{
 	color:firebrick;
@@ -69,99 +20,7 @@ img{
 	max-width: 100%;
 }
 
-	.home{
-		padding-top: 50px;
-	
-	}
 
-	.center {
-	  display: block;
-	  margin-left: auto;
-	  margin-right: auto;
-	  width: 50%;
-	}
-	 	
-	
-/*REDES SOCIALES*/
-	
-	.social{	
-		padding: 20px;
-		
-			img {
-			max-width: 40%;
-			height: auto;
-
-		}
-
-		
-	}
-	
-	
-
-	.logo img {
-		max-width: 80%;
-  		height: auto;
-
-	}
-
-
-
-	
-	
-	/**NOSOTROS**/
-	.nosotros{
-	
-		padding: 20px;
-
-	}
-
-	.nosotrosBottom{
-		padding-top: 20px;
-		font-size: 1.5em;
-		color: white;
-	}
-	.nosotrosComment{
-		color: white;
-		background-color:black;
-		font-size: 1.2em;
-			ul{
-			padding-left:80px;
-			  }
-		
-		img{
-		 max-width: 100%;
-  		height: auto;
-		padding-top: 20px;
-		}
-		
-	}
-	
-	
-	/**BLOG O NOVEDADES**/
-	.novedades{
-		background-image:url("../images/formTropical2.png");
-		padding-top: 50px;
-		
-	
-	}
-
-
-	footer{
-		background-color: firebrick;
-		color:#ffffff;
-		height: 100px;
-		margin-top: auto;
-
-	}
-
-	footer h6{
-
-		padding: 4em;
-		text-align: center;
-
-	}
-
-}
 
 
 
