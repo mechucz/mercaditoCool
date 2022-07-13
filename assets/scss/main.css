@@ -30,6 +30,56 @@ body {
 .home {
   padding-top: 50px; }
 
+.negrita, .titular-uno, .titular-dos, .titular-tres, .titular-cuatro {
+  font-weight: 700; }
+
+.grosor, #borde-uno, #borde-dos, #borde-tres, #borde-cuatro {
+  border-top: 4px;
+  border-top-style: double;
+  border-bottom: 4px;
+  border-bottom-style: double; }
+
+/*MAP colores fuente titulares slides home*/
+.titular-uno {
+  color: #666666;
+  text-align: left;
+  margin: 2px;
+  padding: 5px; }
+
+.titular-dos {
+  color: #d7000f;
+  text-align: left;
+  margin: 2px;
+  padding: 5px; }
+
+.titular-tres {
+  color: #e4b0b3;
+  text-align: left;
+  margin: 2px;
+  padding: 5px; }
+
+.titular-cuatro {
+  color: #000000;
+  text-align: left;
+  margin: 2px;
+  padding: 5px; }
+
+#borde-uno {
+  border-top-color: #666666;
+  border-bottom-color: #666666; }
+
+#borde-dos {
+  border-top-color: #d7000f;
+  border-bottom-color: #d7000f; }
+
+#borde-tres {
+  border-top-color: #e4b0b3;
+  border-bottom-color: #e4b0b3; }
+
+#borde-cuatro {
+  border-top-color: #000000;
+  border-bottom-color: #000000; }
+
 /**BLOG O NOVEDADES**/
 @media (max-width: 576px) {
   .novedades {
