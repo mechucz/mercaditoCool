@@ -1,0 +1,38 @@
+// Scss Document
+
+@media (max-width: 576px) {
+		footer{
+		background-color: firebrick;
+		color:#ffffff;
+		height: 60px;
+		margin-top: auto;
+
+	}
+		footer h6{
+
+		padding: 1em;
+		text-align: center;
+
+	}
+}
+
+
+@media (min-width: 577px) {
+
+
+	footer{
+		background-color: firebrick;
+		color:#ffffff;
+		height: 100px;
+		margin-top: auto;
+
+	}
+
+	footer h6{
+
+		padding: 4em;
+		text-align: center;
+
+	}
+
+}

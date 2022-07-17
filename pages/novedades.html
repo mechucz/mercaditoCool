@@ -2,43 +2,98 @@
 <html>
 <head>
 <meta charset="UTF-8">
-		<link rel="stylesheet" href="../assets/css/main.css">
-<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="../assets/scss/main.css">
+	<link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+<title>Noticias sobre moda circular</title>
+	<meta name="description" content="Novedades sobre consumo sustentable, moda circular, ferias americanas, venta de ropa usada">
 </head>
-
 <body>
-	<div class="contenedorNav">
-		
-		<nav class="menu">
-			<ul>
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="./nosotros.html">Nosotros</a></li>
-				<li><a href="./productos.html">Productos</a></li>
-				<li class="active"><a href="./novedades.html">Novedades</a></li>
-				<li><a href="./contacto.html">Contacto</a></li>	
-			</ul>
-		</nav>
-		<div class="social"><a href="https://www.instagram.com/mercadito_cool/" target="_blank"><img src="../assets/images/ig.png"></a>
-		</div>
-	</div>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="https://wa.me/message/7LW7ZWQO3YAPD1" target="_blank"><img src="../assets/images/wapp.png" class="fluid"></a>
+	     <a class="navbar-brand" href="https://www.instagram.com/mercadito_cool" target="_blank"><img src="../assets/images/igIconWhite.png" class="fluid"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+        </li>
+		     <li class="nav-item">
+          <a class="nav-link" href="../pages/productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link active" href="../pages/novedades.html">Novedades</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 	
-	<header></header>
-	<main>
-	<h2 class="titulo">Novedades</h2>
-		<div id="grilla">
-			<side class="red"><h2>¿Sabés de que se trata la economía circular?</h3>
-				La economía circular es una forma de consumir y producir de forma consciente. Se trata de ser respetuosos con nuestro medio ambiente. Palabras claves: <strong>reducir, reusar y reciclar</strong>. Desde Mercadito cool proponemos una forma respetuosa y divertida de estar a  la moda. ¿Como? dandole una segunda vida a prendas que tienen muy poco uso, o que están nuevas, pero las vende un individuo y no un retailer. Nosotros somos un nexo entre aquellas personas que tienen estos productos maravillosos (por su estado y bajo costo) y las personas que tienen ganas de vestir bien, sin gastar una fortuna.
-				
-			</side>
-			<section id="textOne">Lorem <strong>lalal</strong>ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend nisl ac rutrum rhoncus. Nullam egestas placerat ultricies. Nam porta laoreet scelerisque. Nunc egestas laoreet dolor. Praesent quis mauris eu sem malesuada pharetra. Nullam arcu sapien, vestibulum quis pellentesque at, fermentum sed lorem. Vestibulum sollicitudin faucibus vestibulum. Donec maximus, ligula non mollis malesuada, nunc elit maximus lectus, non pulvinar dolor lorem vel dolor. Vivamus ac placerat purus, nec malesuada quam. Nullam convallis aliquet sem, ut rhoncus nibh ultricies a. Quisque pharetra eros vitae dui porta finibus quis vitae tellus. Nam dictum volutpat ex, eget bibendum nibh fermentum eget. Suspendisse ac urna accumsan, elementum nisl non, porta purus. Vivamus felis turpis, condimentum eget dolor nec, ultrices cursus purus. Sed sit amet nulla mi. Donec fermentum vel turpis at imperdiet.</section>
-			<section id="imageOne"><img src="../assets/images/formTropical2.png"></section>
-			<section id="textTwo">
-			Integer volutpat ornare urna, nec fringilla sem eleifend ultricies. Maecenas id erat id odio consectetur commodo. Phasellus blandit, est at tincidunt commodo, orci sem porta tellus, eget congue lectus sapien vel nisi. Sed vel elementum neque. Sed a neque eget ligula mattis fringilla finibus vitae dolor. Pellentesque maximus sapien at risus ornare lobortis. Morbi consectetur ipsum non ligula euismod, sed pretium magna varius. Proin sit amet vulputate est. Maecenas ultricies sagittis sapien, vel aliquam elit pellentesque sed.
-			Quisque vitae ultrices diam. Etiam venenatis libero non aliquam consequat. Mauris non venenatis quam, mattis consectetur nulla. Nulla vitae dui sodales, faucibus magna sed, aliquam neque. Fusce scelerisque tellus id lectus bibendum porta. Proin posuere lorem quis eros ornare, ut tristique dolor tempus. Fusce ligula arcu, vehicula non eros id, auctor aliquam sapien. Maecenas a ornare nulla, eu venenatis ex. Fusce in odio id urna scelerisque vestibulum. Ut non velit nec arcu dapibus tincidunt eget quis nibh. Suspendisse potenti.</section>
+	<main class="novedades">
+		
+		  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="../assets/images/logo1.png" width="200px">
+    <h1 class="display-5 fw-bold">Novedades MC</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Enterate de las últimas novedades en el mundo de la moda circular, aquí!.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Quiero suscribirme</button>
+      </div>
+    </div>
+  </div>
+		
+		
+		
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-sm-12 col-md-3 pt-3">
+				<div class="card pt-1" >
+					<a href="https://www.vestua.cl/store/sell" target="_blank"><img src="../assets/images/vestua.jpeg" class="center"></a> 
+					<div class="card-body">
+						<h5 class="card-title">Vestuá:</h5>
+						Desde este sitio web podrás comprar ropa de segunda mano y vender tu ropa. Ello se encargan de todo, desde retirar las prendas en tu domicilio, fotografiarlas, venderlas y despacharlas.
+					</div>
+				</div>
+			</div>
+				<div class="col-sm-12 col-md-3 pt-3">
+				<div class="card pt-2">
+					<a href="https://www.paris.cl/conciencia-celeste/proyectos/piensa-circular/" target="_blank"><img src="../assets/images/paris.jpeg"  class="center"></a>
+					<div class="card-body">
+						<h5 class="card-title">Moda Circular París:</h5>
+						Un micrositio de las tiendas Paris en donde podrás comprar ropa de segunda mano online, renovar tus prendas en Paríslab y reciclar las prendas que ya no puedas reusar.</p>
+					</div>
+				</div>
+			</div>
+				<div class="col-sm-12 col-md-3 pt-3">
+				<div class="card pt-4">
+					<a href="https://rockndress.cl" target="_blank"><img src="../assets/images/R-17logo.png"  class="center"></a> 
+					<div class="card-body">
+						<h5>Rock & Dress:</h5>
+						En este sitio web podrás arrendar vestidos de fiesta, eteritos, tapados y otras prendas.Una excelente alternativa para evitar comprar artículos que solo usarás una vez. También puedes poner en arriendo tus vestidos y ganar algo de dinero colaborando con el ecosistema!
+					</div>
+				</div>
+			</div>
+
 		</div>
+	</div>	
+	
+
+		
 	</main>
 	<footer>
 		<h6>©2022 Mercedes Cachaza - Todos los derechos reservados</h6>
 	</footer>
+	<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

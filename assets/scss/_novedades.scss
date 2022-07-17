@@ -1,0 +1,19 @@
+// Scss Document
+
+	/**BLOG O NOVEDADES**/
+@media (max-width: 576px) {
+
+	.novedades{
+		padding-top: 50px;
+	
+	}
+}
+@media (min-width: 577px) {
+
+	.novedades{
+		background-image:url("../images/formTropical2.png");
+		padding-top: 50px;
+		
+	
+	}
+}

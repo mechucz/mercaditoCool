@@ -1,0 +1,54 @@
+// Scss Document
+	.home{
+		padding-top: 50px;
+	
+	}
+
+.negrita{
+	font-weight: 700;
+	
+}
+
+.grosor{
+	border-top:4px;
+	border-top-style:double;
+	border-bottom:4px;
+	border-bottom-style:double;
+}
+
+@mixin alinear($posicion, $margen, $espaciado){
+	
+	text-align:$posicion;
+	margin:$margen;
+	padding:$espaciado;
+	
+}
+/*MAP colores fuente titulares slides home*/
+
+$destacados:(
+uno:#666666,
+dos:#d7000f,
+tres:#e4b0b3,
+cuatro:#000000
+);
+
+@each $destacado,$color in $destacados{
+	
+	
+	.titular-#{$destacado}{
+		@extend .negrita;
+		color:$color;
+		@include alinear(left,2px,5px)
+	}
+}
+
+@each $destacado,$color in $destacados{
+	
+	
+	#borde-#{$destacado}{
+		border-top-color:$color;
+		border-bottom-color:$color;
+		@extend .grosor;
+
+	}
+}

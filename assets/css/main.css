@@ -4,16 +4,45 @@
   BEM ejemplo: p.social
   kebab-case ejemplo p-social*/
 
+@media (max-width: 576px) {
 
-@media(min-width:600px){
+	.home{
+		padding-top: 50px;
 	
+	}
+	.novedades{
+		padding-top: 50px;
+	
+	}
 
-	/*Contenedor de base para alinear los elemento a lo largo de la pag*/
+		.contacto{
+		backgound-image:none;
+	}
+
+	img{
+	max-width: 100%;
+}
+		footer{
+		background-color: firebrick;
+		color:#ffffff;
+		height: 60px;
+		margin-top: auto;
+
+	}
+		footer h6{
+
+		padding: 1em;
+		text-align: center;
+
+	}
+
+}
+	
+@media (min-width: 577px) {
 
 
 	body{
 		background-color: #ffffff;
-		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 		color:#000000;
 		text-decoration: none;
 		 display: flex;
@@ -23,135 +52,132 @@
 
 	}
 
-	body.home{
-		background-image:url("../images/home.JPEG");
-		background-position: top;
-		background-size: 100%;
-		background-repeat: no-repeat;
+	.home{
+		padding-top: 50px;
+	
 	}
 
-
-
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 	p{
 		padding-right: 10em;
 		padding-left: 3em;
 	}
 
-	h1.titulo{
-		text-align: center;
-		color:firebrick;
-	}
+
 
 
 	h1.titulo--negrita{
 		font-weight: bold;
+	
 	}
 	h2.titulo{
 		text-align: center;
 		color:firebrick;
 	}
-
-	/*Contenedor  para alinear los elementos del menu superior (navegacion y social)*/
-
-	.contenedorNav{
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		justify-content: space-between;
-
+	.brand{
+		padding-top: 60px;
 	}
-
-
-	.social{
-
-		justify-content: flex-end;
-
+	.textHome{
+		border-style: solid;
+		border-color: firebrick;
+		border-radius: 20px; 
+		padding: 10px;
+		background-color: firebrick;
+		
 	}
-
-	.social img {
-
-		width: 50px;
-		height:50px;
-	}
-
-
-
-
-
-	nav.menu{
-		text-decoration: none;
-		font-size: 1.2em;
-
-	}
-	nav.menu a{
-		color:#000000;
-		text-decoration: none;
-		padding: 0.5em;
-
-
-	}
-
-	nav.menu a:hover{
-		color:#999999;
-		text-decoration: none;
-
-
-
-	}
-
-
-	nav.menu ul{
-
-		list-style-type: none;
-		text-decoration: none;
-
-
-	}
-	nav.menu ul li{
-		display:inline;
-		text-decoration: none;
-	}
-	nav.menu ul li.active{
-		text-decoration: underline;
-
-	}
-
-	nav.menu ul li.active a{
+/*Titular*/
+	
+	
+	section#header{
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 		color:firebrick;
+		padding-top: 20px;
+		text-shadow: 2px 2px 3px #cccccc;
+		text-align:center;
+		
+	}
+	section#header h1{
+		font-size: 6vw;
+		padding-top:20px;
+		
+		
+	}
+	
+	
+/*REDES SOCIALES*/
+	
+	.social{	
+		padding: 20px;
+		
+	}
+	
+	.social img {
+		max-width: 40%;
+  		height: auto;
+
 	}
 
 
-	img{
-		width: 100%;
+	.logo img {
+		max-width: 80%;
+  		height: auto;
+
 	}
 
-	/*Contenedor  para alinear texto dentro de main*/
 
-	.contenedorCajas{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content:space-evenly;
-	}
 
-	.caja{
-		width: 400px;
-		text-align: justify;
-	}
-
+	
+	
 	/**NOSOTROS**/
 	.nosotros{
-		background-image:url("../images/hearts10.png");
-		background-repeat:repeat;
-		background-position:bottom;
-		background-size: 100%;
+	
 		padding: 20px;
 
 	}
+	.nosotrosWhite{
+		background-color: white;
+		padding: 40px;
+		font-size: 1.2em;
+	
+
+	}
+	.nosotrosBottom{
+		padding-top: 20px;
+		font-size: 1.5em;
+		color: white;
+	}
+	.nosotrosComment{
+		color: white;
+		background-color:black;
+		font-size: 1.2em;
+		
+	}
+	
+	.nosotrosComment ul{
+		padding-left:80px;
+	}
+	
+	.nosotrosComment a{
+		color:firebrick;
+	}
+	
+	.nosotrosComment img{
+		 max-width: 100%;
+  		height: auto;
+		padding-top: 20px;
+	}
 
 	/**PRODUCTOS**/
+
+img{
+	max-width: 100%;
+}
 	.productos{
 		display: flex;
 		flex-direction: row;
@@ -159,118 +185,28 @@
 		justify-content:space-around;
 
 	}
-	.prod{
-		width: 25%;
-		text-align:center;
-		padding-top: 50px;
-		overflow: hidden;
-		border-radius: 25px;
-
-	}
-
-	.prod img{
-		
-		border-radius: 25px;
-		transition: all 1s;
 	
-		
 
-	}
-	
-	.prod img:hover{
-		
-		transform:scale(1.8);
-	
-		
-		
-	}
+
 
 	/**BLOG O NOVEDADES**/
-	#grilla{
-		display:grid;
-
-		grid-template-areas: 
-			"side textOne"
-			"side imageOne"
-			"side textTwo";
-
-		grid-template-columns:25% auto;	
-		grid-template-rows: auto;
-		grid-column-gap: 10px;
-		grid-row-gap: 15px;
-
-	}
-	side.red{
-		background-color:lightpink;
-		border:1rem solid white;
-		border-radius: 25px;
-		color:firebrick;
-		padding: 20px;
-		font-size: 1em;
-	}
-
-	side{
-		grid-area: side;
-	}
-	
-		side.red h2{
-		font-size: 1.5em;
-	}
-
-	section#textOne{
-		grid-area: textOne;
-		padding: 20px;
-		font-size: 1em;
-	}
-	section#textTwo{
-		grid-area: textTwo;
-		padding: 20px;
-		font-size: 1em;
-	}
-	section#imageOne{
-		grid-area: imageOne;
-	}
-
-
-
-
-	/**FORMULARIO**/
-
-	.contenedorForm{
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-
-	}
-	.form{
-		width: 25%;
-		justify-content:space-between;
-	}
-	.formCenter{
+	.novedades{
+		background-image:url("../images/formTropical2.png");
+		padding-top: 50px;
 		
+	
+	}
+
+	/**Contacto**/
+	.contacto{
 		background-image:url("../images/formTropical.jpeg");
+		background-size:100%;
 		background-repeat: no-repeat;
-		background-position: top;
-		background-size: 100%;
-		justify-content:space-between;
-		padding: 180px 20px 40px 380px;
-		border-radius: 25px;
-		text-align:start;
-	}
+		
 	
-	#nombre{
-		width: 30%;
-		
 	}
-	#mail{
-		width: 30%;
-		
-	}
+
 	
-	#message{
-		width: 50%;
-		
-	}
 
 	footer{
 		background-color: firebrick;
@@ -278,7 +214,6 @@
 		height: 100px;
 		margin-top: auto;
 
-
 	}
 
 	footer h6{
@@ -287,280 +222,9 @@
 		text-align: center;
 
 	}
+
+
+
 }
 
-/*ESTILOS MOBILE- 467px*/
-@media (max-width: 599px){
-	
-	
 
-	/*Contenedor de base para alinear los elemento a lo largo de la pag*/
-
-
-	body{
-		background-color: #ffffff;
-		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-		color:#000000;
-		text-decoration: none;
-		 display: flex;
-		 min-height: 100vh;
-		 flex-direction: column;
-		 justify-content: flex-start;
-
-	}
-
-	body.home{
-		background-image:url("../images/home.JPEG");
-		background-position: top;
-		background-size: 100%;
-		background-repeat: no-repeat;
-	}
-
-
-
-
-
-	p{
-		padding-right: 10em;
-		padding-left: 3em;
-	}
-
-	h1.titulo{
-		display: flex;
-		padding-top: 200px;
-		 justify-content: flex-end;
-		color:black;
-	}
-
-
-	h1.titulo--negrita{
-		font-weight: bold;
-	}
-	h2.titulo{
-		text-align: center;
-		color:firebrick;
-	}
-
-	/*Contenedor  para alinear los elementos del menu superior (navegacion y social)*/
-
-	.contenedorNav{
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		justify-content: space-between;
-
-	}
-
-
-	.social{
-
-		justify-content: flex-end;
-
-	}
-
-	.social img {
-
-		width: 50px;
-		height:50px;
-	}
-
-
-
-
-
-	nav.menu{
-		text-decoration: none;
-		font-size: 0.8em;
-
-	}
-	nav.menu a{
-		color:#000000;
-		text-decoration: none;
-		padding: 0.2em;
-
-
-	}
-
-	nav.menu a:hover{
-		color:#999999;
-		text-decoration: none;
-
-
-
-	}
-
-
-	nav.menu ul{
-
-		list-style-type: none;
-		text-decoration: none;
-
-
-	}
-	nav.menu ul li{
-		display:inline;
-		text-decoration: none;
-	}
-	nav.menu ul li.active{
-		text-decoration: underline;
-
-	}
-
-	nav.menu ul li.active a{
-		color:firebrick;
-	}
-
-
-	img{
-		width: 50%;
-	}
-
-	/*Contenedor  para alinear texto dentro de main*/
-
-	.contenedorCajas{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content:space-evenly;
-	}
-
-	.caja{
-		width: 400px;
-		text-align: justify;
-	}
-
-	/**NOSOTROS**/
-	.nosotros{
-		background-image:url("../images/hearts10.png");
-		background-repeat:repeat;
-		background-position:bottom;
-		background-size: 100%;
-		padding: 20px;
-
-	}
-
-	/**PRODUCTOS**/
-	.productos{
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		justify-content:space-around;
-
-	}
-	.prod{
-		
-		text-align: center;
-		
-
-	}
-
-	.prod img{
-		width:100%;
-		border-radius: 25px;
-
-	}
-
-	/**BLOG O NOVEDADES**/
-	#grilla{
-		display:grid;
-
-		grid-template-areas: 
-			"side textOne"
-			"side imageOne"
-			"side textTwo";
-
-		grid-template-columns:35% auto;	
-		grid-template-rows: auto;
-		grid-column-gap: 5px;
-		grid-row-gap: 10px;
-
-	}
-	side.red{
-		background-color:lightpink;
-		border:0.5rem solid white;
-		border-radius: 15px;
-		color:firebrick;
-		padding: 10px;
-		font-size: 0.8em;
-	}
-
-	side{
-		grid-area: side;
-	}
-	
-		side.red h2{
-		font-size: 1em;
-	}
-
-	section#textOne{
-		grid-area: textOne;
-		padding: 10px;
-		font-size: 1em;
-	}
-	section#textTwo{
-		grid-area: textTwo;
-		padding: 10px;
-		font-size: 1em;
-	}
-	section#imageOne{
-		grid-area: imageOne;
-	}
-
-
-
-
-	/**FORMULARIO**/
-
-	.contenedorForm{
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-
-	}
-	.form{
-		width: 25%;
-		justify-content:space-between;
-	}
-	.formCenter{
-		
-		background-image:url("../images/formTropical.jpeg");
-		background-repeat: no-repeat;
-		background-position: top;
-		background-size: 100%;
-		justify-content:space-between;
-		padding: 180px 20px 40px 380px;
-		border-radius: 25px;
-		text-align:start;
-	}
-	
-	#nombre{
-		width: 30%;
-		
-	}
-	#mail{
-		width: 30%;
-		
-	}
-	
-	#message{
-		width: 50%;
-		
-	}
-
-	footer{
-		background-color: firebrick;
-		color:#ffffff;
-		height: 100px;
-		 margin-top: auto;
-
-
-	}
-
-	footer h6{
-
-		padding: 4em;
-		text-align: center;
-
-	}
-}
-	
