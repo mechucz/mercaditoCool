@@ -88,6 +88,13 @@ body {
   .novedades {
     background-image: url("../images/formTropical2.png");
     padding-top: 50px; } }
+/* CSS Document */
+.productos a {
+  color: #ffffff;
+  text-decoration: none; }
+  .productos a:hover {
+    opacity: 1; }
+
 a {
   color: firebrick; }
   a:hover {
