@@ -7,6 +7,9 @@ body {
   background-color: #ffffff;
   color: #000000; }
 
+.navbar {
+  font-size: 26px; }
+
 @media (max-width: 576px) {
   footer {
     background-color: firebrick;
@@ -28,7 +31,7 @@ body {
     padding: 4em;
     text-align: center; } }
 .home {
-  padding-top: 50px; }
+  padding-top: 100px; }
 
 .negrita, .titular-uno, .titular-dos, .titular-tres, .titular-cuatro {
   font-weight: 700; }
@@ -83,12 +86,18 @@ body {
 /**BLOG O NOVEDADES**/
 @media (max-width: 576px) {
   .novedades {
-    padding-top: 50px; } }
+    padding-top: 100px; } }
 @media (min-width: 577px) {
   .novedades {
-    background-image: url("../images/formTropical2.png");
-    padding-top: 50px; } }
+    padding-top: 100px;
+    background-image: url("../images/flowers.jpeg");
+    background-origin: content-box;
+    background-position: bottom;
+    background-repeat: no-repeat; } }
 /* CSS Document */
+.productos {
+  padding-top: 100px; }
+
 .productos a {
   color: #ffffff;
   text-decoration: none; }
