@@ -1,8 +1,10 @@
 /* CSS Document */
 @media (max-width: 576px) {
   .navbar-brand {
-    font-size: 26px;
-    color: firebrick; } }
+    font-size: 18px;
+    font-weight: bold;
+    color: firebrick;
+    text-align: center; } }
 @media (min-width: 577px) {
   body {
     display: flex;
