@@ -4,8 +4,9 @@
 		footer{
 		background-color: firebrick;
 		color:#ffffff;
-		height: 100px;
+		height: 200px;
 		margin-top: auto;
+		text-align: center;
 
 	}
 		footer h6{
@@ -13,6 +14,11 @@
 		padding: 1em;
 		text-align: center;
 
+	}
+	
+	.fright{
+	text-align: center;
+	
 	}
 }
 
@@ -35,4 +41,10 @@
 
 	}
 
+
+.fright{
+	text-align: right;
+	
+}
+	
 }

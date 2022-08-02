@@ -8,17 +8,25 @@ body {
   color: #000000; }
 
 .navbar {
-  font-size: 26px; }
+  font-size: 22px; }
+
+.navbar-brand {
+  font-size: 40px;
+  color: firebrick; }
 
 @media (max-width: 576px) {
   footer {
     background-color: firebrick;
     color: #ffffff;
-    height: 100px;
-    margin-top: auto; }
+    height: 200px;
+    margin-top: auto;
+    text-align: center; }
 
   footer h6 {
     padding: 1em;
+    text-align: center; }
+
+  .fright {
     text-align: center; } }
 @media (min-width: 577px) {
   footer {
@@ -29,60 +37,96 @@ body {
 
   footer h6 {
     padding: 4em;
-    text-align: center; } }
-.home {
-  padding-top: 100px; }
+    text-align: center; }
 
-.negrita, .titular-uno, .titular-dos, .titular-tres, .titular-cuatro {
-  font-weight: 700; }
+  .fright {
+    text-align: right; } }
+@media (max-width: 576px) {
+  .home {
+    padding-top: 80px;
+    z-index: 2; }
 
-.grosor, #borde-uno, #borde-dos, #borde-tres, #borde-cuatro {
-  border-top: 4px;
-  border-top-style: double;
-  border-bottom: 4px;
-  border-bottom-style: double; }
+  .indexBox {
+    position: absolute;
+    width: 200px;
+    padding-top: 120px;
+    padding-left: 20px;
+    z-index: 10;
+    font-size: 12px; }
 
-/*MAP colores fuente titulares slides home*/
-.titular-uno {
-  color: #666666;
-  text-align: left;
-  margin: 2px;
-  padding: 5px; }
+  .indexBox h3 {
+    font-size: 14px; }
 
-.titular-dos {
-  color: #d7000f;
-  text-align: left;
-  margin: 2px;
-  padding: 5px; }
+  .imageBox {
+    max-width: 50%;
+    height: auto; } }
+@media (min-width: 577px) {
+  .home {
+    z-index: 2;
+    padding-top: 80px; }
 
-.titular-tres {
-  color: #e4b0b3;
-  text-align: left;
-  margin: 2px;
-  padding: 5px; }
+  .indexBox {
+    position: absolute;
+    width: 400px;
+    padding-top: 250px;
+    margin-left: 40px;
+    z-index: 10;
+    font-size: 22px; }
 
-.titular-cuatro {
-  color: #000000;
-  text-align: left;
-  margin: 2px;
-  padding: 5px; }
+  .indexBox h3 {
+    color: firebrick; }
 
-#borde-uno {
-  border-top-color: #666666;
-  border-bottom-color: #666666; }
+  .imageBox {
+    max-width: 100%;
+    height: auto; }
 
-#borde-dos {
-  border-top-color: #d7000f;
-  border-bottom-color: #d7000f; }
+  .negrita, .titular-uno, .titular-dos, .titular-tres, .titular-cuatro {
+    font-weight: 700; }
 
-#borde-tres {
-  border-top-color: #e4b0b3;
-  border-bottom-color: #e4b0b3; }
+  .grosor, #borde-uno, #borde-dos, #borde-tres, #borde-cuatro {
+    border-bottom: 4px;
+    border-bottom-style: double; }
 
-#borde-cuatro {
-  border-top-color: #000000;
-  border-bottom-color: #000000; }
+  /*MAP colores fuente titulares slides home*/
+  .titular-uno {
+    color: #666666;
+    text-align: left;
+    margin: 2px;
+    padding: 5px; }
 
+  .titular-dos {
+    color: #d7000f;
+    text-align: left;
+    margin: 2px;
+    padding: 5px; }
+
+  .titular-tres {
+    color: #e4b0b3;
+    text-align: left;
+    margin: 2px;
+    padding: 5px; }
+
+  .titular-cuatro {
+    color: #000000;
+    text-align: left;
+    margin: 2px;
+    padding: 5px; }
+
+  #borde-uno {
+    border-top-color: #666666;
+    border-bottom-color: #666666; }
+
+  #borde-dos {
+    border-top-color: #d7000f;
+    border-bottom-color: #d7000f; }
+
+  #borde-tres {
+    border-top-color: #e4b0b3;
+    border-bottom-color: #e4b0b3; }
+
+  #borde-cuatro {
+    border-top-color: #000000;
+    border-bottom-color: #000000; } }
 /**BLOG O NOVEDADES**/
 @media (max-width: 576px) {
   .novedades {
