@@ -47,7 +47,7 @@
     text-align: right; } }
 @media (max-width: 576px) {
   .home {
-    padding-top: 120px;
+    padding-top: 140px;
     z-index: 2; }
 
   .indexBox {
