@@ -1,19 +1,23 @@
 /* CSS Document */
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  min-height: 100vh;
-  background-color: #ffffff;
-  color: #000000; }
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 26px;
+    color: firebrick; } }
+@media (min-width: 577px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: #000000; }
 
-.navbar {
-  font-size: 22px; }
+  .navbar {
+    font-size: 22px; }
 
-.navbar-brand {
-  font-size: 40px;
-  color: firebrick; }
-
+  .navbar-brand {
+    font-size: 40px;
+    color: firebrick; } }
 @media (max-width: 576px) {
   footer {
     background-color: firebrick;
@@ -43,7 +47,7 @@ body {
     text-align: right; } }
 @media (max-width: 576px) {
   .home {
-    padding-top: 80px;
+    padding-top: 120px;
     z-index: 2; }
 
   .indexBox {
@@ -58,7 +62,7 @@ body {
     font-size: 14px; }
 
   .imageBox {
-    max-width: 50%;
+    max-width: 30%;
     height: auto; } }
 @media (min-width: 577px) {
   .home {
@@ -130,7 +134,7 @@ body {
 /**BLOG O NOVEDADES**/
 @media (max-width: 576px) {
   .novedades {
-    padding-top: 100px; } }
+    padding-top: 120px; } }
 @media (min-width: 577px) {
   .novedades {
     padding-top: 100px;

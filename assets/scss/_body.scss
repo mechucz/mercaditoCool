@@ -1,4 +1,16 @@
 // Scss Document
+@media (max-width: 576px) {
+	.navbar-brand{
+	font-size: 26px;
+	color: firebrick;
+	
+}
+	
+	
+	
+}
+
+@media (min-width: 577px) {
 body{
 		display: flex;
 		flex-direction:column;
@@ -16,4 +28,5 @@ body{
 .navbar-brand{
 	font-size: 40px;
 	color: firebrick;
+	}
 }
