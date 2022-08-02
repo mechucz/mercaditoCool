@@ -28,34 +28,36 @@
     margin-top: auto;
     text-align: center; }
 
-  footer h6 {
-    padding: 1em;
-    text-align: center; }
-
   .fright {
-    text-align: center; } }
+    text-align: center;
+    margin-top: 20px; }
+
+  .fleft {
+    text-align: center;
+    margin-top: 20px; } }
 @media (min-width: 577px) {
   footer {
     background-color: firebrick;
     color: #ffffff;
-    height: 100px;
+    height: 120px;
     margin-top: auto; }
 
-  footer h6 {
-    padding: 4em;
-    text-align: center; }
-
   .fright {
-    text-align: right; } }
+    text-align: right;
+    margin-top: 20px; }
+
+  .fleft {
+    text-align: left;
+    margin-top: 20px; } }
 @media (max-width: 576px) {
   .home {
-    padding-top: 140px;
+    padding-top: 80px;
     z-index: 2; }
 
   .indexBox {
     position: absolute;
     width: 200px;
-    padding-top: 120px;
+    padding-top: 140px;
     padding-left: 20px;
     z-index: 10;
     font-size: 12px; }

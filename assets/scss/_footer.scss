@@ -9,15 +9,16 @@
 		text-align: center;
 
 	}
-		footer h6{
+		.fright{
 
-		padding: 1em;
 		text-align: center;
+		margin-top: 20px;
 
 	}
 	
-	.fright{
+	.fleft{
 	text-align: center;
+	margin-top: 20px;
 	
 	}
 }
@@ -29,21 +30,22 @@
 	footer{
 		background-color: firebrick;
 		color:#ffffff;
-		height: 100px;
+		height: 120px;
 		margin-top: auto;
 
 	}
 
-	footer h6{
+.fright{
 
-		padding: 4em;
-		text-align: center;
+		text-align: right;
+	margin-top: 20px;
 
 	}
 
 
-.fright{
-	text-align: right;
+.fleft{
+	text-align: left;
+	margin-top: 20px;
 	
 }
 	
